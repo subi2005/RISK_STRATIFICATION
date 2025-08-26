@@ -1,0 +1,29 @@
+2025-08-25 23:53:22.966 | INFO     | risk.db:load_data_from_db:14 - Loading data from table 'beneficiary5'
+2025-08-25 23:53:27.685 | WARNING  | __main__:<module>:88 - DB load failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Falling back to CSV.
+2025-08-25 23:54:03.588 | INFO     | risk.db:load_data_from_db:14 - Loading data from table 'beneficiary5'
+2025-08-25 23:54:07.680 | WARNING  | __main__:<module>:88 - DB load failed: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Falling back to CSV.
+2025-08-25 23:54:08.055 | INFO     | __main__:<module>:90 - Loaded 56641 rows from CSV.
+2025-08-25 23:54:08.056 | INFO     | risk.model:train_model:119 - Starting training...
+2025-08-25 23:54:10.457 | INFO     | risk.model:train_model:154 - RISK_30D: MAE=6.355, R²=0.936
+2025-08-25 23:54:11.049 | INFO     | risk.model:train_model:154 - RISK_60D: MAE=6.553, R²=0.935
+2025-08-25 23:54:11.667 | INFO     | risk.model:train_model:154 - RISK_90D: MAE=6.839, R²=0.933
+2025-08-25 23:54:44.581 | SUCCESS  | risk.model:train_model:163 - Model saved to models/risk_model.pkl
+2025-08-25 23:55:22.214 | INFO     | risk.db:load_data_from_db:14 - Loading data from table 'beneficiary5'
+2025-08-26 09:18:04.907 | INFO     | __main__:<module>:104 - Loading data for training...
+2025-08-26 09:18:04.910 | INFO     | risk.db:load_data_from_db:10 - Loading data from beneficiary5
+2025-08-26 09:30:47.308 | INFO     | __main__:<module>:104 - Loading data for training...
+2025-08-26 09:30:47.326 | INFO     | risk.db:load_data_from_db:10 - Loading data from beneficiary5
+2025-08-26 11:32:45.054 | INFO     | __main__:<module>:104 - Loading data for training...
+2025-08-26 11:32:45.061 | INFO     | risk.db:load_data_from_db:10 - Loading data from beneficiary5
+2025-08-26 11:44:31.600 | INFO     | __main__:<module>:104 - Loading data for training...
+2025-08-26 11:44:31.604 | INFO     | risk.db:load_data_from_db:10 - Loading data from beneficiary
