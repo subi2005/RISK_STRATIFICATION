@@ -7,3 +7,7 @@ psycopg2-binary
 mlflow
 loguru
 python-dotenv
+fastapi
+uvicorn
+joblib
+scikit-learn
